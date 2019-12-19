@@ -29,7 +29,9 @@ def download_attachments(args):
                  "WHERE ParentId in (SELECT Id FROM Account)")
     elif args.get('contact_only'):
         query = ("SELECT Id, ParentId, Name, Body FROM Attachment "
-                 "WHERE ParentId IN (SELECT Id FROM Contact WHERE Title = 'USA' AND RecordType.Name = 'Etown KON contact record type') ORDER BY Id ASC")
+                 "WHERE ParentId IN (SELECT Id FROM Contact WHERE Title = 'USA' AND RecordType.Name = 'Etown KON contact record type') "
+                 "AND ID >= \'00P2v00001qxo5jEAA\' "
+                 "ORDER BY Id ASC")
     else:
         query = "SELECT Id, ParentId, Name, Body FROM Attachment"
 
