@@ -29,7 +29,7 @@ def download_attachments(args):
                  "WHERE ParentId in (SELECT Id FROM Account)")
     elif args.get('contact_only'):
         query = ("SELECT Id, ParentId, Name, Body FROM Attachment "
-                 "WHERE ParentId in (SELECT Id FROM Contact WHERE Title = 'USA' AND RecordType.Name = 'Etown KON contact record type')")
+                 "WHERE ParentId IN (SELECT Id FROM Contact WHERE Title = 'USA' AND RecordType.Name = 'Etown KON contact record type') ORDER BY Id ASC")
     else:
         query = "SELECT Id, ParentId, Name, Body FROM Attachment"
 
@@ -70,7 +70,7 @@ def download_attachments(args):
         local_file = "".join(local_file)
         local_path = os.path.join(storage_dir, local_file)
 
-        print time.strftime("%Y/%m/%d %H:%M:%S", time.localtime(int(time.time()))), ': ', remote_file
+        print time.strftime("%Y/%m/%d %H:%M:%S", time.localtime(int(time.time()))), ':' , record.get("Id"), ':', remote_file
 
         logging.info("Downloading %s to %s", remote_file, local_path)
         logging.debug("Remote URL: %s", remote_path)
