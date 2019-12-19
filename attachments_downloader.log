@@ -1,0 +1,224 @@
+2019-12-19 11:06:05,311 - DEBUG - Starting new HTTPS connection (1): login.salesforce.com:443
+2019-12-19 11:06:05,727 - DEBUG - https://login.salesforce.com:443 "POST /services/Soap/u/38.0 HTTP/1.1" 200 797
+2019-12-19 11:06:05,727 - DEBUG - Starting new HTTPS connection (1): ap15.salesforce.com:443
+2019-12-19 11:06:27,631 - DEBUG - https://ap15.salesforce.com:443 "GET /services/data/v38.0/query/?q=SELECT+Id%2C+ParentId%2C+Name%2C+Body+FROM+Attachment HTTP/1.1" 200 None
+2019-12-19 11:06:27,964 - DEBUG - Starting to download 2457787 attachments
+2019-12-19 11:06:27,967 - INFO - Downloading BRUNO Resultado_ CPF - 098.560.pdf to C:/ASOT/1219\00P9000001Q7vkQEAR_BRUNO Resultado_ CPF - 098.560.pdf
+2019-12-19 11:06:27,967 - DEBUG - Remote URL: https://ap15.salesforce.com/services/data/v38.0/sobjects/Attachment/00P9000001Q7vkQEAR/Body
+2019-12-19 11:06:28,088 - DEBUG - https://ap15.salesforce.com:443 "GET /services/data/v38.0/sobjects/Attachment/00P9000001Q7vkQEAR/Body HTTP/1.1" 200 None
+2019-12-19 11:06:28,328 - DEBUG - ParentId: 00T90000048kfKKEAY
+2019-12-19 11:06:28,331 - INFO - Downloading jomar 200118.pdf to C:/ASOT/1219\00P9000001QgnqpEAB_jomar 200118.pdf
+2019-12-19 11:06:28,331 - DEBUG - Remote URL: https://ap15.salesforce.com/services/data/v38.0/sobjects/Attachment/00P9000001QgnqpEAB/Body
+2019-12-19 11:06:28,417 - DEBUG - https://ap15.salesforce.com:443 "GET /services/data/v38.0/sobjects/Attachment/00P9000001QgnqpEAB/Body HTTP/1.1" 200 None
+2019-12-19 11:06:28,528 - DEBUG - ParentId: 00T90000048mtYeEAI
+2019-12-19 11:06:28,528 - INFO - Downloading Banco Itaú Unibanco S2018.pdf to C:/ASOT/1219\00P9000001Qgo43EAB_Banco Itaú Unibanco S2018.pdf
+2019-12-19 11:06:28,528 - DEBUG - Remote URL: https://ap15.salesforce.com/services/data/v38.0/sobjects/Attachment/00P9000001Qgo43EAB/Body
+2019-12-19 11:06:28,630 - DEBUG - https://ap15.salesforce.com:443 "GET /services/data/v38.0/sobjects/Attachment/00P9000001Qgo43EAB/Body HTTP/1.1" 200 None
+2019-12-19 11:06:28,792 - DEBUG - ParentId: a0c9000000K0ukkAAB
+2019-12-19 11:06:28,793 - INFO - Downloading Performance Call #1 - Follow UP Email To:masahisa.hashimoto@jci-hitachi.com 2018/01/19 16:20.html to C:/ASOT/1219\00P9000001Qg3XKEAZ_Performance Call #1 - Follow UP Email Tomasahisa.hashimoto@jci-hitachi.com 20180119 1620.html
+2019-12-19 11:06:28,793 - DEBUG - Remote URL: https://ap15.salesforce.com/services/data/v38.0/sobjects/Attachment/00P9000001Qg3XKEAZ/Body
+2019-12-19 11:06:28,858 - DEBUG - https://ap15.salesforce.com:443 "GET /services/data/v38.0/sobjects/Attachment/00P9000001Qg3XKEAZ/Body HTTP/1.1" 200 None
+2019-12-19 11:06:28,862 - DEBUG - ParentId: 00T90000047jUSaEAM
+2019-12-19 11:06:28,865 - INFO - Downloading Performance Call #2 - Follow UP Email To:jessie.shen@lego.com 2018-1-19 PM4:10.html to C:/ASOT/1219\00P9000001Qg54xEAB_Performance Call #2 - Follow UP Email Tojessie.shen@lego.com 2018-1-19 PM410.html
+2019-12-19 11:06:28,867 - DEBUG - Remote URL: https://ap15.salesforce.com/services/data/v38.0/sobjects/Attachment/00P9000001Qg54xEAB/Body
+2019-12-19 11:06:28,928 - DEBUG - https://ap15.salesforce.com:443 "GET /services/data/v38.0/sobjects/Attachment/00P9000001Qg54xEAB/Body HTTP/1.1" 200 None
+2019-12-19 11:06:28,934 - DEBUG - ParentId: 00T90000048BF3rEAG
+2019-12-19 11:06:28,937 - INFO - Downloading Welcome Call - Follow UP Email To:xiuyao.wang@accenture.com 1/19/2018 10:37 AM.html to C:/ASOT/1219\00P9000001Qg7W7EAJ_Welcome Call - Follow UP Email Toxiuyao.wang@accenture.com 1192018 1037 AM.html
+2019-12-19 11:06:28,938 - DEBUG - Remote URL: https://ap15.salesforce.com/services/data/v38.0/sobjects/Attachment/00P9000001Qg7W7EAJ/Body
+2019-12-19 11:06:28,994 - DEBUG - https://ap15.salesforce.com:443 "GET /services/data/v38.0/sobjects/Attachment/00P9000001Qg7W7EAJ/Body HTTP/1.1" 200 None
+2019-12-19 11:06:29,012 - DEBUG - ParentId: 00T90000046jhnCEAQ
+2019-12-19 11:06:29,012 - INFO - Downloading Performance Call #3 - Follow UP Email To:jan.pribyl@cnhind.com 1/19/2018 11:00 AM.html to C:/ASOT/1219\00P9000001Qg89TEAR_Performance Call #3 - Follow UP Email Tojan.pribyl@cnhind.com 1192018 1100 AM.html
+2019-12-19 11:06:29,012 - DEBUG - Remote URL: https://ap15.salesforce.com/services/data/v38.0/sobjects/Attachment/00P9000001Qg89TEAR/Body
+2019-12-19 11:06:29,068 - DEBUG - https://ap15.salesforce.com:443 "GET /services/data/v38.0/sobjects/Attachment/00P9000001Qg89TEAR/Body HTTP/1.1" 200 None
+2019-12-19 11:06:29,068 - DEBUG - ParentId: 00T90000048lnDfEAI
+2019-12-19 11:06:29,084 - INFO - Downloading Early Welcome Call - Follow UP Email To:benchikh.kamel@hotmail.fr 19/01/2018 11:23.html to C:/ASOT/1219\00P9000001Qg8m2EAB_Early Welcome Call - Follow UP Email Tobenchikh.kamel@hotmail.fr 19012018 1123.html
+2019-12-19 11:06:29,084 - DEBUG - Remote URL: https://ap15.salesforce.com/services/data/v38.0/sobjects/Attachment/00P9000001Qg8m2EAB/Body
+2019-12-19 11:06:29,150 - DEBUG - https://ap15.salesforce.com:443 "GET /services/data/v38.0/sobjects/Attachment/00P9000001Qg8m2EAB/Body HTTP/1.1" 200 None
+2019-12-19 11:06:29,154 - DEBUG - ParentId: 00T90000047JiS1EAK
+2019-12-19 11:06:29,155 - INFO - Downloading Performance Call #1 - Follow UP Email To:gloria.bertin@it.pwc.com 19/01/2018 11:32.html to C:/ASOT/1219\00P9000001Qg92KEAR_Performance Call #1 - Follow UP Email Togloria.bertin@it.pwc.com 19012018 1132.html
+2019-12-19 11:06:29,155 - DEBUG - Remote URL: https://ap15.salesforce.com/services/data/v38.0/sobjects/Attachment/00P9000001Qg92KEAR/Body
+2019-12-19 11:06:29,226 - DEBUG - https://ap15.salesforce.com:443 "GET /services/data/v38.0/sobjects/Attachment/00P9000001Qg92KEAR/Body HTTP/1.1" 200 None
+2019-12-19 11:06:29,230 - DEBUG - ParentId: 00T9000003xjNh4EAE
+2019-12-19 11:06:29,232 - INFO - Downloading Paulo Eduardo do Nascimento.xps to C:/ASOT/1219\00P9000001QguIREAZ_Paulo Eduardo do Nascimento.xps
+2019-12-19 11:06:29,232 - DEBUG - Remote URL: https://ap15.salesforce.com/services/data/v38.0/sobjects/Attachment/00P9000001QguIREAZ/Body
+2019-12-19 11:06:29,328 - DEBUG - https://ap15.salesforce.com:443 "GET /services/data/v38.0/sobjects/Attachment/00P9000001QguIREAZ/Body HTTP/1.1" 200 None
+2019-12-19 11:06:30,525 - DEBUG - ParentId: 00T90000048mwUQEAY
+2019-12-19 11:06:30,526 - INFO - Downloading Performance Call #1 - Follow UP Email To:ying.wang@elektrobit.com 2018-1-18 AM11:56.html to C:/ASOT/1219\00P9000001Q7ZQ4EAN_Performance Call #1 - Follow UP Email Toying.wang@elektrobit.com 2018-1-18 AM1156.html
+2019-12-19 11:06:30,526 - DEBUG - Remote URL: https://ap15.salesforce.com/services/data/v38.0/sobjects/Attachment/00P9000001Q7ZQ4EAN/Body
+2019-12-19 11:06:30,592 - DEBUG - https://ap15.salesforce.com:443 "GET /services/data/v38.0/sobjects/Attachment/00P9000001Q7ZQ4EAN/Body HTTP/1.1" 200 None
+2019-12-19 11:06:30,595 - DEBUG - ParentId: 00T90000048B0N0EAK
+2019-12-19 11:06:30,596 - INFO - Downloading Performance Call #3 - Follow UP Email To:quan-t-thanh.thao@unilever.com 18/01/2018 12:01.html to C:/ASOT/1219\00P9000001Q7ZZYEA3_Performance Call #3 - Follow UP Email Toquan-t-thanh.thao@unilever.com 18012018 1201.html
+2019-12-19 11:06:30,598 - DEBUG - Remote URL: https://ap15.salesforce.com/services/data/v38.0/sobjects/Attachment/00P9000001Q7ZZYEA3/Body
+2019-12-19 11:06:30,663 - DEBUG - https://ap15.salesforce.com:443 "GET /services/data/v38.0/sobjects/Attachment/00P9000001Q7ZZYEA3/Body HTTP/1.1" 200 None
+2019-12-19 11:06:30,667 - DEBUG - ParentId: 00T900000489Rq7EAE
+2019-12-19 11:06:30,670 - INFO - Downloading Englishtown WebPay BR Amauri.pdf to C:/ASOT/1219\00P9000001QhuxFEAR_Englishtown WebPay BR Amauri.pdf
+2019-12-19 11:06:30,670 - DEBUG - Remote URL: https://ap15.salesforce.com/services/data/v38.0/sobjects/Attachment/00P9000001QhuxFEAR/Body
+2019-12-19 11:06:31,122 - DEBUG - https://ap15.salesforce.com:443 "GET /services/data/v38.0/sobjects/Attachment/00P9000001QhuxFEAR/Body HTTP/1.1" 200 None
+2019-12-19 11:06:31,326 - DEBUG - ParentId: 00T90000049A82HEAS
+2019-12-19 11:06:31,328 - INFO - Downloading 79.pdf to C:/ASOT/1219\00P9000001Qhuz4EAB_79.pdf
+2019-12-19 11:06:31,328 - DEBUG - Remote URL: https://ap15.salesforce.com/services/data/v38.0/sobjects/Attachment/00P9000001Qhuz4EAB/Body
+2019-12-19 11:06:31,463 - DEBUG - https://ap15.salesforce.com:443 "GET /services/data/v38.0/sobjects/Attachment/00P9000001Qhuz4EAB/Body HTTP/1.1" 200 None
+2019-12-19 11:06:31,665 - DEBUG - ParentId: 00T90000049A8R2EAK
+2019-12-19 11:06:31,665 - INFO - Downloading Performance Call #2 - Follow UP Email To:sales@star-tec.cn 18/01/2018 10:59.html to C:/ASOT/1219\00P9000001Q7XdEEAV_Performance Call #2 - Follow UP Email Tosales@star-tec.cn 18012018 1059.html
+2019-12-19 11:06:31,665 - DEBUG - Remote URL: https://ap15.salesforce.com/services/data/v38.0/sobjects/Attachment/00P9000001Q7XdEEAV/Body
+2019-12-19 11:06:31,733 - DEBUG - https://ap15.salesforce.com:443 "GET /services/data/v38.0/sobjects/Attachment/00P9000001Q7XdEEAV/Body HTTP/1.1" 200 None
+2019-12-19 11:06:31,733 - DEBUG - ParentId: 00T90000045LqiNEAS
+2019-12-19 11:06:31,733 - INFO - Downloading Performance Call #1 - Follow UP Email To:shishime.akiko@jp.fujitsu.com 2018/01/18 12:30.html to C:/ASOT/1219\00P9000001Q7YbBEAV_Performance Call #1 - Follow UP Email Toshishime.akiko@jp.fujitsu.com 20180118 1230.html
+2019-12-19 11:06:31,733 - DEBUG - Remote URL: https://ap15.salesforce.com/services/data/v38.0/sobjects/Attachment/00P9000001Q7YbBEAV/Body
+2019-12-19 11:06:31,815 - DEBUG - https://ap15.salesforce.com:443 "GET /services/data/v38.0/sobjects/Attachment/00P9000001Q7YbBEAV/Body HTTP/1.1" 200 None
+2019-12-19 11:06:31,819 - DEBUG - ParentId: 00T90000047JFRwEAO
+2019-12-19 11:06:31,821 - INFO - Downloading não autorizado patricia.xps to C:/ASOT/1219\00P9000001QgyI0EAJ_não autorizado patricia.xps
+2019-12-19 11:06:31,821 - DEBUG - Remote URL: https://ap15.salesforce.com/services/data/v38.0/sobjects/Attachment/00P9000001QgyI0EAJ/Body
+2019-12-19 11:06:31,894 - DEBUG - https://ap15.salesforce.com:443 "GET /services/data/v38.0/sobjects/Attachment/00P9000001QgyI0EAJ/Body HTTP/1.1" 200 None
+2019-12-19 11:06:32,017 - DEBUG - ParentId: 00T90000048mzWvEAI
+2019-12-19 11:06:32,017 - INFO - Downloading Web Pay - Viviane - 1800,00 - 20012018.PNG to C:/ASOT/1219\00P9000001QgyJTEAZ_Web Pay - Viviane - 1800,00 - 20012018.PNG
+2019-12-19 11:06:32,017 - DEBUG - Remote URL: https://ap15.salesforce.com/services/data/v38.0/sobjects/Attachment/00P9000001QgyJTEAZ/Body
+2019-12-19 11:06:32,101 - DEBUG - https://ap15.salesforce.com:443 "GET /services/data/v38.0/sobjects/Attachment/00P9000001QgyJTEAZ/Body HTTP/1.1" 200 None
+2019-12-19 11:06:32,105 - DEBUG - ParentId: 00T90000048mzeGEAQ
+2019-12-19 11:06:32,108 - INFO - Downloading Rafaela Lima - Englishtown WebPay BR.pdf to C:/ASOT/1219\00P9000001QgyLOEAZ_Rafaela Lima - Englishtown WebPay BR.pdf
+2019-12-19 11:06:32,108 - DEBUG - Remote URL: https://ap15.salesforce.com/services/data/v38.0/sobjects/Attachment/00P9000001QgyLOEAZ/Body
+2019-12-19 11:06:32,224 - DEBUG - https://ap15.salesforce.com:443 "GET /services/data/v38.0/sobjects/Attachment/00P9000001QgyLOEAZ/Body HTTP/1.1" 200 None
+2019-12-19 11:06:32,257 - DEBUG - ParentId: 00T90000048mzjaEAA
+2019-12-19 11:06:32,257 - INFO - Downloading venda Sheila.pdf to C:/ASOT/1219\00P9000001QgyQJEAZ_venda Sheila.pdf
+2019-12-19 11:06:32,257 - DEBUG - Remote URL: https://ap15.salesforce.com/services/data/v38.0/sobjects/Attachment/00P9000001QgyQJEAZ/Body
+2019-12-19 11:06:32,362 - DEBUG - https://ap15.salesforce.com:443 "GET /services/data/v38.0/sobjects/Attachment/00P9000001QgyQJEAZ/Body HTTP/1.1" 200 None
+2019-12-19 11:06:32,403 - DEBUG - ParentId: 00T90000048mzgXEAQ
+2019-12-19 11:06:32,404 - INFO - Downloading WEVERTON PGTO FEITO.pdf to C:/ASOT/1219\00P9000001QgyUaEAJ_WEVERTON PGTO FEITO.pdf
+2019-12-19 11:06:32,404 - DEBUG - Remote URL: https://ap15.salesforce.com/services/data/v38.0/sobjects/Attachment/00P9000001QgyUaEAJ/Body
+2019-12-19 11:06:32,500 - DEBUG - https://ap15.salesforce.com:443 "GET /services/data/v38.0/sobjects/Attachment/00P9000001QgyUaEAJ/Body HTTP/1.1" 200 None
+2019-12-19 11:06:32,552 - DEBUG - ParentId: 00T90000048n0JJEAY
+2019-12-19 11:06:32,552 - INFO - Downloading CESAR A CORREIA.xps to C:/ASOT/1219\00P9000001QgyVOEAZ_CESAR A CORREIA.xps
+2019-12-19 11:06:32,552 - DEBUG - Remote URL: https://ap15.salesforce.com/services/data/v38.0/sobjects/Attachment/00P9000001QgyVOEAZ/Body
+2019-12-19 11:06:32,657 - DEBUG - https://ap15.salesforce.com:443 "GET /services/data/v38.0/sobjects/Attachment/00P9000001QgyVOEAZ/Body HTTP/1.1" 200 None
+2019-12-19 11:06:32,688 - DEBUG - ParentId: 00T90000048n0KqEAI
+2019-12-19 11:06:32,688 - INFO - Downloading Plano de estudos - André Gustavo Mendes Rambalducci.xlsx to C:/ASOT/1219\00P9000001QgydXEAR_Plano de estudos - André Gustavo Mendes Rambalducci.xlsx
+2019-12-19 11:06:32,688 - DEBUG - Remote URL: https://ap15.salesforce.com/services/data/v38.0/sobjects/Attachment/00P9000001QgydXEAR/Body
+2019-12-19 11:06:32,752 - DEBUG - https://ap15.salesforce.com:443 "GET /services/data/v38.0/sobjects/Attachment/00P9000001QgydXEAR/Body HTTP/1.1" 200 None
+2019-12-19 11:06:32,767 - DEBUG - ParentId: a0c9000000K0vq6AAB
+2019-12-19 11:06:32,767 - INFO - Downloading alessandra neri cpf mae nathalya.pdf to C:/ASOT/1219\00P9000001QgyvSEAR_alessandra neri cpf mae nathalya.pdf
+2019-12-19 11:06:32,767 - DEBUG - Remote URL: https://ap15.salesforce.com/services/data/v38.0/sobjects/Attachment/00P9000001QgyvSEAR/Body
+2019-12-19 11:06:32,897 - DEBUG - https://ap15.salesforce.com:443 "GET /services/data/v38.0/sobjects/Attachment/00P9000001QgyvSEAR/Body HTTP/1.1" 200 None
+2019-12-19 11:06:32,901 - DEBUG - ParentId: 00T90000048n0zZEAQ
+2019-12-19 11:06:32,903 - INFO - Downloading DIEGO PEREIRA DA SILVA SANTOS.pdf to C:/ASOT/1219\00P9000001QgzsOEAR_DIEGO PEREIRA DA SILVA SANTOS.pdf
+2019-12-19 11:06:32,903 - DEBUG - Remote URL: https://ap15.salesforce.com/services/data/v38.0/sobjects/Attachment/00P9000001QgzsOEAR/Body
+2019-12-19 11:06:33,043 - DEBUG - https://ap15.salesforce.com:443 "GET /services/data/v38.0/sobjects/Attachment/00P9000001QgzsOEAR/Body HTTP/1.1" 200 None
+2019-12-19 11:06:33,049 - DEBUG - ParentId: 00T90000048n241EAA
+2019-12-19 11:06:33,051 - INFO - Downloading Englishtown WebPay BR GABRIEL.pdf to C:/ASOT/1219\00P9000001QgztqEAB_Englishtown WebPay BR GABRIEL.pdf
+2019-12-19 11:06:33,052 - DEBUG - Remote URL: https://ap15.salesforce.com/services/data/v38.0/sobjects/Attachment/00P9000001QgztqEAB/Body
+2019-12-19 11:06:33,177 - DEBUG - https://ap15.salesforce.com:443 "GET /services/data/v38.0/sobjects/Attachment/00P9000001QgztqEAB/Body HTTP/1.1" 200 None
+2019-12-19 11:06:33,181 - DEBUG - ParentId: 00T90000048n2mmEAA
+2019-12-19 11:06:33,184 - INFO - Downloading Comprovante Eduardo.jpg to C:/ASOT/1219\00P9000001QgzzyEAB_Comprovante Eduardo.jpg
+2019-12-19 11:06:33,184 - DEBUG - Remote URL: https://ap15.salesforce.com/services/data/v38.0/sobjects/Attachment/00P9000001QgzzyEAB/Body
+2019-12-19 11:06:33,303 - DEBUG - https://ap15.salesforce.com:443 "GET /services/data/v38.0/sobjects/Attachment/00P9000001QgzzyEAB/Body HTTP/1.1" 200 None
+2019-12-19 11:06:33,500 - DEBUG - ParentId: 00T90000048n4irEAA
+2019-12-19 11:06:33,503 - INFO - Downloading Englishtown WebPay BR Eliane.pdf to C:/ASOT/1219\00P9000001Qh06kEAB_Englishtown WebPay BR Eliane.pdf
+2019-12-19 11:06:33,503 - DEBUG - Remote URL: https://ap15.salesforce.com/services/data/v38.0/sobjects/Attachment/00P9000001Qh06kEAB/Body
+2019-12-19 11:06:33,618 - DEBUG - https://ap15.salesforce.com:443 "GET /services/data/v38.0/sobjects/Attachment/00P9000001Qh06kEAB/Body HTTP/1.1" 200 None
+2019-12-19 11:06:33,625 - DEBUG - ParentId: 00T90000048n4w5EAA
+2019-12-19 11:06:33,627 - INFO - Downloading Jairton.pdf to C:/ASOT/1219\00P9000001Qh06zEAB_Jairton.pdf
+2019-12-19 11:06:33,628 - DEBUG - Remote URL: https://ap15.salesforce.com/services/data/v38.0/sobjects/Attachment/00P9000001Qh06zEAB/Body
+2019-12-19 11:06:33,726 - DEBUG - https://ap15.salesforce.com:443 "GET /services/data/v38.0/sobjects/Attachment/00P9000001Qh06zEAB/Body HTTP/1.1" 200 None
+2019-12-19 11:06:33,730 - DEBUG - ParentId: 00T90000048n4yzEAA
+2019-12-19 11:06:33,733 - INFO - Downloading Jeferson.pdf to C:/ASOT/1219\00P9000001Qh08qEAB_Jeferson.pdf
+2019-12-19 11:06:33,733 - DEBUG - Remote URL: https://ap15.salesforce.com/services/data/v38.0/sobjects/Attachment/00P9000001Qh08qEAB/Body
+2019-12-19 11:06:33,976 - DEBUG - https://ap15.salesforce.com:443 "GET /services/data/v38.0/sobjects/Attachment/00P9000001Qh08qEAB/Body HTTP/1.1" 200 None
+2019-12-19 11:06:33,983 - DEBUG - ParentId: 00T90000048n51yEAA
+2019-12-19 11:06:33,986 - INFO - Downloading Larissa.pdf to C:/ASOT/1219\00P9000001Qh09eEAB_Larissa.pdf
+2019-12-19 11:06:33,986 - DEBUG - Remote URL: https://ap15.salesforce.com/services/data/v38.0/sobjects/Attachment/00P9000001Qh09eEAB/Body
+2019-12-19 11:06:34,075 - DEBUG - https://ap15.salesforce.com:443 "GET /services/data/v38.0/sobjects/Attachment/00P9000001Qh09eEAB/Body HTTP/1.1" 200 None
+2019-12-19 11:06:34,078 - DEBUG - ParentId: 00T90000048n565EAA
+2019-12-19 11:06:34,082 - INFO - Downloading Contact US 2.0 Teacher Guide (V2).pdf to C:/ASOT/1219\00P9000001Qh3CHEAZ_Contact US 2.0 Teacher Guide (V2).pdf
+2019-12-19 11:06:34,082 - DEBUG - Remote URL: https://ap15.salesforce.com/services/data/v38.0/sobjects/Attachment/00P9000001Qh3CHEAZ/Body
+2019-12-19 11:06:34,256 - DEBUG - https://ap15.salesforce.com:443 "GET /services/data/v38.0/sobjects/Attachment/00P9000001Qh3CHEAZ/Body HTTP/1.1" 200 None
+2019-12-19 11:06:36,209 - DEBUG - ParentId: 02s9000000t4ssQAAQ
+2019-12-19 11:06:36,209 - INFO - Downloading QQ截图20180121171311.png to C:/ASOT/1219\00P9000001Qh6VJEAZ_QQ截图20180121171311.png
+2019-12-19 11:06:36,209 - DEBUG - Remote URL: https://ap15.salesforce.com/services/data/v38.0/sobjects/Attachment/00P9000001Qh6VJEAZ/Body
+2019-12-19 11:06:36,312 - DEBUG - https://ap15.salesforce.com:443 "GET /services/data/v38.0/sobjects/Attachment/00P9000001Qh6VJEAZ/Body HTTP/1.1" 200 None
+2019-12-19 11:06:36,358 - DEBUG - ParentId: 0039000002LWLcYAAX
+2019-12-19 11:06:36,361 - INFO - Downloading IMG_4377.PNG to C:/ASOT/1219\00P9000001QhAFHEA3_IMG_4377.PNG
+2019-12-19 11:06:36,361 - DEBUG - Remote URL: https://ap15.salesforce.com/services/data/v38.0/sobjects/Attachment/00P9000001QhAFHEA3/Body
+2019-12-19 11:06:36,533 - DEBUG - https://ap15.salesforce.com:443 "GET /services/data/v38.0/sobjects/Attachment/00P9000001QhAFHEA3/Body HTTP/1.1" 200 None
+2019-12-19 11:06:37,015 - DEBUG - ParentId: 5009000001shtASAAY
+2019-12-19 11:06:37,017 - INFO - Downloading Performance Call #3 - Follow UP Email To:hiroyuki.yamazaki@jp.kpmg.com 2018/01/17 12:08.html to C:/ASOT/1219\00P9000001Q6lhaEAB_Performance Call #3 - Follow UP Email Tohiroyuki.yamazaki@jp.kpmg.com 20180117 1208.html
+2019-12-19 11:06:37,017 - DEBUG - Remote URL: https://ap15.salesforce.com/services/data/v38.0/sobjects/Attachment/00P9000001Q6lhaEAB/Body
+2019-12-19 11:06:37,078 - DEBUG - https://ap15.salesforce.com:443 "GET /services/data/v38.0/sobjects/Attachment/00P9000001Q6lhaEAB/Body HTTP/1.1" 200 None
+2019-12-19 11:06:37,085 - DEBUG - ParentId: 00T90000047jjhdEAA
+2019-12-19 11:06:37,085 - INFO - Downloading Welcome Call - Follow UP Email To:josep.marques@medtronic.com 1/19/2018 1:25 PM.html to C:/ASOT/1219\00P9000001QgCfoEAF_Welcome Call - Follow UP Email Tojosep.marques@medtronic.com 1192018 125 PM.html
+2019-12-19 11:06:37,086 - DEBUG - Remote URL: https://ap15.salesforce.com/services/data/v38.0/sobjects/Attachment/00P9000001QgCfoEAF/Body
+2019-12-19 11:06:37,145 - DEBUG - https://ap15.salesforce.com:443 "GET /services/data/v38.0/sobjects/Attachment/00P9000001QgCfoEAF/Body HTTP/1.1" 200 None
+2019-12-19 11:06:37,151 - DEBUG - ParentId: 00T90000045LShmEAG
+2019-12-19 11:06:37,151 - INFO - Downloading Nivel de Tintas - Ink.PNG to C:/ASOT/1219\00P9000001QgHd4EAF_Nivel de Tintas - Ink.PNG
+2019-12-19 11:06:37,151 - DEBUG - Remote URL: https://ap15.salesforce.com/services/data/v38.0/sobjects/Attachment/00P9000001QgHd4EAF/Body
+2019-12-19 11:06:37,247 - DEBUG - https://ap15.salesforce.com:443 "GET /services/data/v38.0/sobjects/Attachment/00P9000001QgHd4EAF/Body HTTP/1.1" 200 None
+2019-12-19 11:06:37,253 - DEBUG - ParentId: 5009000001sgajgAAA
+2019-12-19 11:06:37,257 - INFO - Downloading Welcome Call - Follow UP Email To:beatriz.panizo.cano@accenture.com 1/19/2018 4:51 PM.html to C:/ASOT/1219\00P9000001QgNudEAF_Welcome Call - Follow UP Email Tobeatriz.panizo.cano@accenture.com 1192018 451 PM.html
+2019-12-19 11:06:37,257 - DEBUG - Remote URL: https://ap15.salesforce.com/services/data/v38.0/sobjects/Attachment/00P9000001QgNudEAF/Body
+2019-12-19 11:06:37,322 - DEBUG - https://ap15.salesforce.com:443 "GET /services/data/v38.0/sobjects/Attachment/00P9000001QgNudEAF/Body HTTP/1.1" 200 None
+2019-12-19 11:06:37,325 - DEBUG - ParentId: 00T90000046jnNqEAI
+2019-12-19 11:06:37,325 - INFO - Downloading FW_ DA Lannister e Swat 16.01.pdf to C:/ASOT/1219\00P9000001QgR1rEAF_FW_ DA Lannister e Swat 16.01.pdf
+2019-12-19 11:06:37,325 - DEBUG - Remote URL: https://ap15.salesforce.com/services/data/v38.0/sobjects/Attachment/00P9000001QgR1rEAF/Body
+2019-12-19 11:06:37,423 - DEBUG - https://ap15.salesforce.com:443 "GET /services/data/v38.0/sobjects/Attachment/00P9000001QgR1rEAF/Body HTTP/1.1" 200 None
+2019-12-19 11:06:37,454 - DEBUG - ParentId: 00T90000048mAq7EAE
+2019-12-19 11:06:37,454 - INFO - Downloading Lucas Tadeu.pdf to C:/ASOT/1219\00P9000001QgTWJEA3_Lucas Tadeu.pdf
+2019-12-19 11:06:37,454 - DEBUG - Remote URL: https://ap15.salesforce.com/services/data/v38.0/sobjects/Attachment/00P9000001QgTWJEA3/Body
+2019-12-19 11:06:37,569 - DEBUG - https://ap15.salesforce.com:443 "GET /services/data/v38.0/sobjects/Attachment/00P9000001QgTWJEA3/Body HTTP/1.1" 200 None
+2019-12-19 11:06:37,569 - DEBUG - ParentId: 00T90000048mHd5EAE
+2019-12-19 11:06:37,569 - INFO - Downloading FW_ DA - Gerência - 19_01_2019.pdf to C:/ASOT/1219\00P9000001QgU7wEAF_FW_ DA - Gerência - 19_01_2019.pdf
+2019-12-19 11:06:37,569 - DEBUG - Remote URL: https://ap15.salesforce.com/services/data/v38.0/sobjects/Attachment/00P9000001QgU7wEAF/Body
+2019-12-19 11:06:37,733 - DEBUG - https://ap15.salesforce.com:443 "GET /services/data/v38.0/sobjects/Attachment/00P9000001QgU7wEAF/Body HTTP/1.1" 200 None
+2019-12-19 11:06:39,576 - DEBUG - ParentId: 00T90000048mJpNEAU
+2019-12-19 11:06:39,576 - INFO - Downloading Englishtown WebPay BR OP-15201090.pdf to C:/ASOT/1219\00P9000001QgUrBEAV_Englishtown WebPay BR OP-15201090.pdf
+2019-12-19 11:06:39,576 - DEBUG - Remote URL: https://ap15.salesforce.com/services/data/v38.0/sobjects/Attachment/00P9000001QgUrBEAV/Body
+2019-12-19 11:06:39,749 - DEBUG - https://ap15.salesforce.com:443 "GET /services/data/v38.0/sobjects/Attachment/00P9000001QgUrBEAV/Body HTTP/1.1" 200 None
+2019-12-19 11:06:39,831 - DEBUG - ParentId: 00T90000048mMq4EAE
+2019-12-19 11:06:39,832 - INFO - Downloading Screenshot (65).png to C:/ASOT/1219\00P9000001QgVmYEAV_Screenshot (65).png
+2019-12-19 11:06:39,832 - DEBUG - Remote URL: https://ap15.salesforce.com/services/data/v38.0/sobjects/Attachment/00P9000001QgVmYEAV/Body
+2019-12-19 11:06:39,924 - DEBUG - https://ap15.salesforce.com:443 "GET /services/data/v38.0/sobjects/Attachment/00P9000001QgVmYEAV/Body HTTP/1.1" 200 None
+2019-12-19 11:06:40,135 - DEBUG - ParentId: 5009000001sglPhAAI
+2019-12-19 11:06:40,138 - INFO - Downloading Performance Call #2 - Follow UP Email To:yanshanzhi@cnhbstock.com 1/17/2018 2:07 PM.html to C:/ASOT/1219\00P9000001Q6sTlEAJ_Performance Call #2 - Follow UP Email Toyanshanzhi@cnhbstock.com 1172018 207 PM.html
+2019-12-19 11:06:40,138 - DEBUG - Remote URL: https://ap15.salesforce.com/services/data/v38.0/sobjects/Attachment/00P9000001Q6sTlEAJ/Body
+2019-12-19 11:06:40,204 - DEBUG - https://ap15.salesforce.com:443 "GET /services/data/v38.0/sobjects/Attachment/00P9000001Q6sTlEAJ/Body HTTP/1.1" 200 None
+2019-12-19 11:06:40,213 - DEBUG - ParentId: 00T90000046mXP0EAM
+2019-12-19 11:06:40,216 - INFO - Downloading Early Welcome Call - Follow UP Email To:sebastienlouvet@hotmail.com 18/01/2018 8:28.html to C:/ASOT/1219\00P9000001Q7kfxEAB_Early Welcome Call - Follow UP Email Tosebastienlouvet@hotmail.com 18012018 828.html
+2019-12-19 11:06:40,216 - DEBUG - Remote URL: https://ap15.salesforce.com/services/data/v38.0/sobjects/Attachment/00P9000001Q7kfxEAB/Body
+2019-12-19 11:06:40,279 - DEBUG - https://ap15.salesforce.com:443 "GET /services/data/v38.0/sobjects/Attachment/00P9000001Q7kfxEAB/Body HTTP/1.1" 200 None
+2019-12-19 11:06:40,282 - DEBUG - ParentId: 00T90000047Jha4EAC
+2019-12-19 11:06:40,285 - INFO - Downloading New Hire Form-陈艳欢.xls to C:/ASOT/1219\00P9000001Q7lZmEAJ_New Hire Form-陈艳欢.xls
+2019-12-19 11:06:40,285 - DEBUG - Remote URL: https://ap15.salesforce.com/services/data/v38.0/sobjects/Attachment/00P9000001Q7lZmEAJ/Body
+2019-12-19 11:06:40,342 - DEBUG - https://ap15.salesforce.com:443 "GET /services/data/v38.0/sobjects/Attachment/00P9000001Q7lZmEAJ/Body HTTP/1.1" 200 None
+2019-12-19 11:06:40,345 - DEBUG - ParentId: 00390000029GzaaAAC
+2019-12-19 11:06:40,346 - INFO - Downloading Welcome Call - Follow UP Email To:petrova@gettaxi.com 18/01/2018 10:16.html to C:/ASOT/1219\00P9000001Q7m1KEAR_Welcome Call - Follow UP Email Topetrova@gettaxi.com 18012018 1016.html
+2019-12-19 11:06:40,348 - DEBUG - Remote URL: https://ap15.salesforce.com/services/data/v38.0/sobjects/Attachment/00P9000001Q7m1KEAR/Body
+2019-12-19 11:06:41,565 - DEBUG - https://ap15.salesforce.com:443 "GET /services/data/v38.0/sobjects/Attachment/00P9000001Q7m1KEAR/Body HTTP/1.1" 200 None
+2019-12-19 11:06:41,565 - DEBUG - ParentId: 00T90000048Bk4xEAC
+2019-12-19 11:06:41,565 - INFO - Downloading Welcome Call - Follow UP Email To:emmanuel.taleux@interieur.gouv.fr 18/01/2018 10:57.html to C:/ASOT/1219\00P9000001Q7nGfEAJ_Welcome Call - Follow UP Email Toemmanuel.taleux@interieur.gouv.fr 18012018 1057.html
+2019-12-19 11:06:41,565 - DEBUG - Remote URL: https://ap15.salesforce.com/services/data/v38.0/sobjects/Attachment/00P9000001Q7nGfEAJ/Body
+2019-12-19 11:06:41,713 - DEBUG - https://ap15.salesforce.com:443 "GET /services/data/v38.0/sobjects/Attachment/00P9000001Q7nGfEAJ/Body HTTP/1.1" 200 None
+2019-12-19 11:06:41,713 - DEBUG - ParentId: 00T90000047kK6rEAE
+2019-12-19 11:06:41,713 - INFO - Downloading Welcome Call - Follow UP Email To:ricoanggriancha@gmail.com 18/01/2018 18:13.html to C:/ASOT/1219\00P9000001Q7nnKEAR_Welcome Call - Follow UP Email Toricoanggriancha@gmail.com 18012018 1813.html
+2019-12-19 11:06:41,713 - DEBUG - Remote URL: https://ap15.salesforce.com/services/data/v38.0/sobjects/Attachment/00P9000001Q7nnKEAR/Body
+2019-12-19 11:06:41,782 - DEBUG - https://ap15.salesforce.com:443 "GET /services/data/v38.0/sobjects/Attachment/00P9000001Q7nnKEAR/Body HTTP/1.1" 200 None
+2019-12-19 11:06:41,782 - DEBUG - ParentId: 00T90000048C4PnEAK
+2019-12-19 11:06:41,782 - INFO - Downloading RE DA Negativa de AutoRenew 1801.msg to C:/ASOT/1219\00P9000001Q7ojCEAR_RE DA Negativa de AutoRenew 1801.msg
+2019-12-19 11:06:41,782 - DEBUG - Remote URL: https://ap15.salesforce.com/services/data/v38.0/sobjects/Attachment/00P9000001Q7ojCEAR/Body
+2019-12-19 11:06:41,950 - DEBUG - https://ap15.salesforce.com:443 "GET /services/data/v38.0/sobjects/Attachment/00P9000001Q7ojCEAR/Body HTTP/1.1" 200 None
+2019-12-19 11:06:42,272 - DEBUG - ParentId: a0F9000001BGCaGEAX
+2019-12-19 11:06:42,273 - INFO - Downloading RE DA Negativa de AutoRenew 1801.msg to C:/ASOT/1219\00P9000001Q7oqSEAR_RE DA Negativa de AutoRenew 1801.msg
+2019-12-19 11:06:42,273 - DEBUG - Remote URL: https://ap15.salesforce.com/services/data/v38.0/sobjects/Attachment/00P9000001Q7oqSEAR/Body
+2019-12-19 11:06:42,405 - DEBUG - https://ap15.salesforce.com:443 "GET /services/data/v38.0/sobjects/Attachment/00P9000001Q7oqSEAR/Body HTTP/1.1" 200 None
+2019-12-19 11:06:42,525 - DEBUG - ParentId: a0F9000001BNEUDEA5
+2019-12-19 11:06:42,526 - INFO - Downloading DAVID CAROLLA.pdf to C:/ASOT/1219\00P9000001Q7rtmEAB_DAVID CAROLLA.pdf
+2019-12-19 11:06:42,526 - DEBUG - Remote URL: https://ap15.salesforce.com/services/data/v38.0/sobjects/Attachment/00P9000001Q7rtmEAB/Body
+2019-12-19 11:06:42,628 - DEBUG - https://ap15.salesforce.com:443 "GET /services/data/v38.0/sobjects/Attachment/00P9000001Q7rtmEAB/Body HTTP/1.1" 200 None
+2019-12-19 11:06:42,667 - DEBUG - ParentId: 00T90000048kXVGEA2
+2019-12-19 11:06:42,671 - INFO - Downloading Performance Call #1 - Follow UP Email To:toddtjiang@tencent.com 18/01/2018 13:40.html to C:/ASOT/1219\00P9000001Q7e93EAB_Performance Call #1 - Follow UP Email Totoddtjiang@tencent.com 18012018 1340.html
+2019-12-19 11:06:42,671 - DEBUG - Remote URL: https://ap15.salesforce.com/services/data/v38.0/sobjects/Attachment/00P9000001Q7e93EAB/Body
+2019-12-19 11:06:42,762 - DEBUG - https://ap15.salesforce.com:443 "GET /services/data/v38.0/sobjects/Attachment/00P9000001Q7e93EAB/Body HTTP/1.1" 200 None
+2019-12-19 11:06:42,766 - DEBUG - ParentId: 00T9000003rLV0SEAW
+2019-12-19 11:06:42,790 - INFO - Downloading Performance Call #2 - Follow UP Email To:sungjoonhong@kr.kpmg.com 18/01/2018 14:00.html to C:/ASOT/1219\00P9000001Q7f3eEAB_Performance Call #2 - Follow UP Email Tosungjoonhong@kr.kpmg.com 18012018 1400.html
+2019-12-19 11:06:42,790 - DEBUG - Remote URL: https://ap15.salesforce.com/services/data/v38.0/sobjects/Attachment/00P9000001Q7f3eEAB/Body
+2019-12-19 11:06:42,861 - DEBUG - https://ap15.salesforce.com:443 "GET /services/data/v38.0/sobjects/Attachment/00P9000001Q7f3eEAB/Body HTTP/1.1" 200 None
+2019-12-19 11:06:42,864 - DEBUG - ParentId: 00T90000047H3MHEA0
+2019-12-19 11:06:42,865 - INFO - Downloading QQ截图20180118130629.png to C:/ASOT/1219\00P9000001Q7fK0EAJ_QQ截图20180118130629.png
+2019-12-19 11:06:42,865 - DEBUG - Remote URL: https://ap15.salesforce.com/services/data/v38.0/sobjects/Attachment/00P9000001Q7fK0EAJ/Body
+2019-12-19 11:06:42,990 - DEBUG - https://ap15.salesforce.com:443 "GET /services/data/v38.0/sobjects/Attachment/00P9000001Q7fK0EAJ/Body HTTP/1.1" 200 None
