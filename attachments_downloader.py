@@ -10,7 +10,12 @@ import time, datetime
 
 ACCOUNT_TO_FILE_CSV = './attachments.csv'
 
-def download_attachments(args):
+def download_attachments(args, lastAttachmentId):
+
+    if lastAttachmentId is None:
+        # lastAttachmentId = '00P2v00001oPEZ2EAO'
+        lastAttachmentId = '00P2v00001qYuTMEA0'
+
     session = requests.Session()
     try:
         sf = Salesforce(username=args.get('user'),
@@ -30,7 +35,7 @@ def download_attachments(args):
     elif args.get('contact_only'):
         query = ("SELECT Id, ParentId, Name, Body FROM Attachment "
                  "WHERE ParentId IN (SELECT Id FROM Contact WHERE Title = 'USA' AND RecordType.Name = 'Etown KON contact record type') "
-                 "AND ID >= \'00P2v00001qxo5jEAA\' "
+                 "AND ID >= \'" + lastAttachmentId + "\' "
                  "ORDER BY Id ASC")
     else:
         query = "SELECT Id, ParentId, Name, Body FROM Attachment"
@@ -53,6 +58,7 @@ def download_attachments(args):
     sf_pod = sf.base_url.replace("https://", "").split('.salesforce.com')[0]
 
     records = result.get('records', {})
+    count = 1
     for record in records:
         body_uri = record.get('Body')
         if not body_uri:
@@ -72,7 +78,8 @@ def download_attachments(args):
         local_file = "".join(local_file)
         local_path = os.path.join(storage_dir, local_file)
 
-        print time.strftime("%Y/%m/%d %H:%M:%S", time.localtime(int(time.time()))), ':' , record.get("Id"), ':', remote_file
+        print time.strftime("%Y/%m/%d %H:%M:%S", time.localtime(int(time.time()))), ': ', count, record.get("Id"), ':', remote_file
+        count = count + 1
 
         logging.info("Downloading %s to %s", remote_file, local_path)
         logging.debug("Remote URL: %s", remote_path)
@@ -89,10 +96,14 @@ def download_attachments(args):
 
         logging.debug("ParentId: %s", record.get('ParentId'))
         acc_to_file.append((record.get('ParentId'), local_file))
+        lastAttachmentId = record.get("Id")
 
     with codecs.open(ACCOUNT_TO_FILE_CSV, 'wb', 'utf-16') as csv_file:
         csv_file.write('ParentId,FileName\n')
         csv_file.write('\n'.join('"%s","%s"' % l for l in acc_to_file))
+
+    if total_records >= 1:
+        download_attachments(args, lastAttachmentId)
 
 if __name__ == "__main__":
     cli_parser = argparse.ArgumentParser(
@@ -145,6 +156,6 @@ if __name__ == "__main__":
                         filename='attachments_downloader.log',
                         filemode='w')
 
-    download_attachments(vars(args))
+    download_attachments(vars(args), None)
 
     print "Done."
